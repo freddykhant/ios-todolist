@@ -14,41 +14,45 @@ struct LoginView: View {
     
     
     var body: some View {
-        VStack {
-            // Header
-            HeaderView()
-            
-            // Login Form
-            Form {
-                TextField("Email Address", text: $email)
-                    .textFieldStyle(RoundedBorderTextFieldStyle())
-                TextField("Password", text: $password)
-                    .textFieldStyle(RoundedBorderTextFieldStyle())
+        NavigationView {
+            VStack {
+                // Header
+                HeaderView()
                 
-                Button {
-                    // Attempt login
-                } label: {
-                    ZStack {
-                        RoundedRectangle(cornerRadius: 10)
-                            .foregroundColor(Color.blue)
-                        
-                        Text("Log In")
-                            .foregroundColor(.white)
-                            .bold()
+                // Login Form
+                Form {
+                    TextField("Email Address", text: $email)
+                        .textFieldStyle(DefaultTextFieldStyle())
+                    
+                    TextField("Password", text: $password)
+                        .textFieldStyle(DefaultTextFieldStyle())
+                    
+                    Button {
+                        // Attempt login
+                    } label: {
+                        ZStack {
+                            RoundedRectangle(cornerRadius: 10)
+                                .foregroundColor(Color.blue)
+                            
+                            Text("Log In")
+                                .foregroundColor(.white)
+                                .bold()
+                        }
                     }
                 }
-            }
-            
-            // Create account
-            VStack {
-                Text("New here?")
-                Button("Create an account") {
-                    // Show registration
+                .padding()
+                
+                // Create account
+                VStack {
+                    Text("New here?")
+                    
+                    NavigationLink("Create An Account",
+                                   destination: RegisterView())
                 }
+                //.padding(.bottom, 50)
+                
+                Spacer()
             }
-            //.padding(.bottom, 50)
-            
-            Spacer()
         }
     }
 }

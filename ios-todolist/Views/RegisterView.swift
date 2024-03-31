@@ -48,7 +48,7 @@ struct RegisterView: View {
                 NavigationLink("Sign in",
                                destination: LoginView())
             }
-            //.padding(.bottom, 50)
+            .padding(.bottom, 50)
             
             Spacer()
         }

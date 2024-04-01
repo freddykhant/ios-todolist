@@ -31,6 +31,7 @@
 		E103C7F42BB0A3740019E986 /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E103C7F32BB0A3740019E986 /* ToDoListItemViewViewModel.swift */; };
 		E103C7F62BB0A8BC0019E986 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E103C7F52BB0A8BC0019E986 /* LoginView.swift */; };
 		E103C7F82BB0AB680019E986 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E103C7F72BB0AB680019E986 /* HeaderView.swift */; };
+		E194AF202BBB17ED00076E15 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E194AF1F2BBB17ED00076E15 /* TLButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		E103C7F32BB0A3740019E986 /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
 		E103C7F52BB0A8BC0019E986 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		E103C7F72BB0AB680019E986 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		E194AF1F2BBB17ED00076E15 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				E103C7D92BB0A2370019E986 /* ToDoListView.swift */,
 				E103C7DB2BB0A23E0019E986 /* NewItemView.swift */,
 				E103C7F52BB0A8BC0019E986 /* LoginView.swift */,
+				E194AF1F2BBB17ED00076E15 /* TLButton.swift */,
 				E103C7F72BB0AB680019E986 /* HeaderView.swift */,
 				E103C7DF2BB0A2510019E986 /* RegisterView.swift */,
 				E103C7E12BB0A27F0019E986 /* ToDoListItemView.swift */,
@@ -242,6 +245,7 @@
 				E103C7E82BB0A3390019E986 /* MainViewViewModel.swift in Sources */,
 				E103C7DA2BB0A2370019E986 /* ToDoListView.swift in Sources */,
 				E103C7E02BB0A2510019E986 /* RegisterView.swift in Sources */,
+				E194AF202BBB17ED00076E15 /* TLButton.swift in Sources */,
 				E103C7D82BB0A22B0019E986 /* ProfileView.swift in Sources */,
 				E103C7E42BB0A2F10019E986 /* User.swift in Sources */,
 				E103C7E22BB0A27F0019E986 /* ToDoListItemView.swift in Sources */,

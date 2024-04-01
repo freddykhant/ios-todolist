@@ -9,47 +9,38 @@ import SwiftUI
 
 struct RegisterView: View {
     
+    @State var name = ""
     @State var email = ""
     @State var password = ""
     
     var body: some View {
         VStack {
             // Header
-            HeaderView(title: "Register", subtitle: "Start organizing your list", angle: -15, background: .cyan)
+            HeaderView(title: "Register",
+                       subtitle: "Start organizing your list",
+                       angle: -15,
+                       background: .cyan)
             
             // Login Form
             Form {
+                TextField("Full Name", text: $name)
+                    .textFieldStyle(DefaultTextFieldStyle())
+                    .autocorrectionDisabled()
+                
                 TextField("Email Address", text: $email)
                     .textFieldStyle(DefaultTextFieldStyle())
+                    .autocapitalization(.none)
+                    .autocorrectionDisabled()
                 
-                TextField("Password", text: $password)
+                SecureField("Password", text: $password)
                     .textFieldStyle(DefaultTextFieldStyle())
                 
-                Button {
-                    // Attempt login
-                } label: {
-                    ZStack {
-                        RoundedRectangle(cornerRadius: 10)
-                            .foregroundColor(Color.blue)
-                        
-                        Text("Sign up")
-                            .foregroundColor(.white)
-                            .bold()
-                    }
+                TLButton(title: "Create Account", background: .green) {
+                    // Attempt Register
                 }
+                .padding()
             }
-            .padding()
             .offset(y:-50)
-            
-            // Create account
-            VStack {
-                Text("Already have one?")
-                
-                NavigationLink("Sign in",
-                               destination: LoginView())
-            }
-            .padding(.bottom, 50)
-            
             Spacer()
         }
     }

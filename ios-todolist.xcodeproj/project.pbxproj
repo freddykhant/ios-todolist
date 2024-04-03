@@ -31,6 +31,7 @@
 		E103C7F42BB0A3740019E986 /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E103C7F32BB0A3740019E986 /* ToDoListItemViewViewModel.swift */; };
 		E103C7F62BB0A8BC0019E986 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E103C7F52BB0A8BC0019E986 /* LoginView.swift */; };
 		E103C7F82BB0AB680019E986 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E103C7F72BB0AB680019E986 /* HeaderView.swift */; };
+		E15594D62BBDC90800A47E65 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15594D52BBDC90800A47E65 /* Extensions.swift */; };
 		E194AF202BBB17ED00076E15 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E194AF1F2BBB17ED00076E15 /* TLButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,7 @@
 		E103C7F32BB0A3740019E986 /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
 		E103C7F52BB0A8BC0019E986 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		E103C7F72BB0AB680019E986 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		E15594D52BBDC90800A47E65 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		E194AF1F2BBB17ED00076E15 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -155,6 +157,7 @@
 				E103C7BD2BB098F90019E986 /* Assets.xcassets */,
 				E103C7D02BB09F930019E986 /* ToDoListApp.swift */,
 				E103C7CE2BB09DE70019E986 /* GoogleService-Info.plist */,
+				E15594D52BBDC90800A47E65 /* Extensions.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				E103C7F62BB0A8BC0019E986 /* LoginView.swift in Sources */,
 				E103C7F02BB0A35E0019E986 /* LoginViewViewModel.swift in Sources */,
 				E103C7BC2BB098F90019E986 /* MainView.swift in Sources */,
+				E15594D62BBDC90800A47E65 /* Extensions.swift in Sources */,
 				E103C7E62BB0A3000019E986 /* ToDoListItem.swift in Sources */,
 				E103C7DC2BB0A23E0019E986 /* NewItemView.swift in Sources */,
 				E103C7EE2BB0A3520019E986 /* NewItemViewViewModel.swift in Sources */,
